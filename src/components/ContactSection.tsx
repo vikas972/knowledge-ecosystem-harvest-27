@@ -149,8 +149,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-semibold mb-1">Email</h4>
-                    <a href="mailto:info@ekgarden.com" className="text-sm text-primary hover:underline">
-                      info@ekgarden.com
+                    <a href="mailto:vimlendu.mishra@intellectdesign.com" className="text-sm text-primary hover:underline">
+                      vimlendu.mishra@intellectdesign.com
                     </a>
                   </div>
                 </div>
