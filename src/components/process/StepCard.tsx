@@ -37,10 +37,12 @@ const StepCard = ({
       {/* Step Number with Icon */}
       <div className="lg:w-1/6 flex lg:justify-center">
         <div className="relative flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-subtle border border-primary/10 z-10">
-          <span className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center">
+          <span className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-medium">
             {number}
           </span>
-          {icon}
+          <div className="text-primary">
+            {icon}
+          </div>
         </div>
       </div>
       

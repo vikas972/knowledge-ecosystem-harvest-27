@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sprout } from 'lucide-react';
 
 const navLinks = [
   { name: 'Concept', href: '#concept' },
@@ -36,8 +36,10 @@ const Navbar = () => {
     >
       <div className="container px-6 mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
-          <span className="inline-block w-8 h-8 rounded-full bg-primary"></span>
-          <span className="font-display font-bold text-xl">EKGarden</span>
+          <span className="inline-block w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+            <Sprout className="w-5 h-5 text-white" />
+          </span>
+          <span className="font-display font-bold text-xl">EKG</span>
         </a>
 
         {/* Desktop Navigation */}
